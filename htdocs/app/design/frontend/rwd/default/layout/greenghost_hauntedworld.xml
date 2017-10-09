@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <greenghost_hauntedworld_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-right.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="greenghost_hauntedworld/hauntedworld" name="hauntedworld.content" template="hauntedworld/curse.phtml"/>
+        </reference>
+    </greenghost_hauntedworld_index_index>
+</layout>

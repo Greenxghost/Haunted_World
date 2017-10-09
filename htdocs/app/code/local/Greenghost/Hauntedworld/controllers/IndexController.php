@@ -19,7 +19,8 @@ class Greenghost_Hauntedworld_IndexController extends Mage_Core_Controller_Front
      */
     public function indexAction()
     {
-        $this->loadLayout()->renderLayout();
+        $this->loadLayout();
+        $this->renderLayout();
     }
 }
 

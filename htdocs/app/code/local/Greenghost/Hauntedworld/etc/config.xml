@@ -38,6 +38,13 @@
                 </args>
             </greenghost_hauntedworld>
         </routers>
+        <layout>
+            <updates>
+                <greenghost_hauntedworld>
+                    <file>greenghost_hauntedworld.xml</file>
+                </greenghost_hauntedworld>
+            </updates>
+        </layout>
         <translate>
             <modules>
                 <greenghost_hauntedworld>
