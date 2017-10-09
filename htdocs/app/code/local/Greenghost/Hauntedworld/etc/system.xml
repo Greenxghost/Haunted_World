@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <sections>
+        <greenghost_hauntedworld module="greenghost_hauntedworld" translate="label">
+            <label>Haunted World</label>
+            <tab>general</tab>
+            <sort_order>200</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <configuration translate="label">
+                    <label>Configuration</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Configuration</label>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <tooltip>Is enabled?</tooltip>
+                        </enabled>
+                        <message translate="label">
+                            <label>Custom Message</label>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <frontend_type>text</frontend_type>
+                            <tooltip>Type here to send a message</tooltip>
+                            <can_be_empty>1</can_be_empty>
+                        </message>
+                    </fields>
+                </configuration>
+            </groups>
+        </greenghost_hauntedworld>
+    </sections>
+</config>

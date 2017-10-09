@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Greenghost_Hauntedworld>
+            <version>0.1.0</version>
+        </Greenghost_Hauntedworld>
+    </modules>
+    <global>
+        <blocks>
+            <greenghost_hauntedworld>
+                <class>Greenghost_Hauntedworld_Block</class>
+            </greenghost_hauntedworld>
+        </blocks>
+        <helpers>
+            <greenghost_hauntedworld>
+                <class>Greenghost_Hauntedworld_Helper</class>
+            </greenghost_hauntedworld>
+        </helpers>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <greenghost_hauntedworld>
+                    <files>
+                        <default>Greenghost_Hauntedworld.csv</default>
+                    </files>
+                </greenghost_hauntedworld>
+            </modules>
+        </translate>
+    </adminhtml>
+    <frontend>
+        <routers>
+            <greenghost_hauntedworld>
+                <use>standard</use>
+                <args>
+                    <module>Greenghost_Hauntedworld</module>
+                    <frontName>hauntedworld</frontName>
+                </args>
+            </greenghost_hauntedworld>
+        </routers>
+        <translate>
+            <modules>
+                <greenghost_hauntedworld>
+                    <files>
+                        <default>Greenghost_Hauntedworld.csv</default>
+                    </files>
+                </greenghost_hauntedworld>
+            </modules>
+        </translate>
+    </frontend>
+    <default>
+        <greenghost_hauntedworld>
+            <configuration>
+                <enabled>1</enabled>
+                <message>It's about to send a message</message>
+            </configuration>
+        </greenghost_hauntedworld>
+    </default>
+</config>
+
